@@ -13,8 +13,12 @@
       "require": "./dist/index.cjs"
     }
   },
+  "bin": {
+    "generate-order-pdf": "./bin/generate-order-pdf.mjs"
+  },
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",

@@ -1,0 +1,26 @@
+{
+    "orderId": 1,
+    "createdAt": "2026-07-06T12:00:00.000Z",
+    "updatedAt": "2026-07-06T12:00:00.000Z",
+    "status": "completed",
+    "corporateName": "Supermercado Horizonte Ltda",
+    "cnpj": "12000111000106",
+    "buyerName": "Fernando Alves",
+    "buyerEmail": "compras@horizonte.example.com",
+    "paymentMethodName": "Boleto 30 dias",
+    "carrier": "Rapido Sul",
+    "observation": "Entregar no período da manhã.",
+    "distributorName": "Distribuidora Exemplo",
+    "items": [
+        {
+            "productName": "Arroz 5kg",
+            "qty": 10,
+            "unitPrice": 24.9
+        },
+        {
+            "productName": "Feijão 1kg",
+            "qty": 20,
+            "unitPrice": 8.5
+        }
+    ]
+}
